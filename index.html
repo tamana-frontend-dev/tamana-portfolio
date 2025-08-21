@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Tamana Sharma | Portfolio</title>
+  <link rel="stylesheet" href="index.css">
+</head>
+<body>
+  <!-- Hero Section -->
+   <div class="container">
+  <header class="hero">
+    <div>
+      <h1>TAMANA SHARMA</h1>
+      <p>Creative and Detail-Oriented Frontend Developer</p>
+    </div>
+    <img src="tamy.png" alt="Tamana Sharma">
+  </header>
+
+  <!-- About -->
+  <section id="about">
+    <h2>About Me</h2>
+    <p>
+      Creative and detail-oriented Frontend Developer with 4+ years of experience in
+      designing and developing user-centric web applications. Proficient in responsive
+      design and performance optimization. Adept at collaborating with teams to deliver
+      high-quality projects on time.
+    </p>
+  </section>
+
+  <!-- Skills with Tabs -->
+  <section id="skills">
+    <h2>Skills</h2>
+    <div class="tabs">
+      <button class="tab active" data-tab="tech">Technical Skills</button>
+      <button class="tab" data-tab="tools">Tools/Software</button>
+      <button class="tab" data-tab="lang">Languages</button>
+    </div>
+    <div class="tab-content active" id="tech">
+      <ul>
+        <li>HTML5, CSS3/SCSS, JavaScript</li>
+        <li>UI Frameworks (React, Angular, Material UI)</li>
+        <li>Frontend Development</li>
+        <li>User Interface Testing</li>
+        <li>Tailwind CSS</li>
+      </ul>
+    </div>
+    <div class="tab-content" id="tools">
+      <ul>
+        <li>Git / GitHub</li>
+        <li>Figma</li>
+        <li>WordPress</li>
+        <li>Agile, Jira</li>
+      </ul>
+    </div>
+    <div class="tab-content" id="lang">
+      <ul>
+        <li>English (Proficient)</li>
+        <li>Hindi (Fluent)</li>
+      </ul>
+    </div>
+  </section>
+
+  <!-- Work Experience Accordion -->
+  <section id="experience">
+    <h2>Work Experience</h2>
+    <div class="accordion">
+      <button class="accordion-btn">UI Developer | VT Netzwelt Pvt. Ltd. – Mohali (Jul 2023 - Present)</button>
+      <div class="accordion-content">
+        <p>• Designed and implemented responsive UI components for mobile applications.</p>
+        <p>• Collaborated with product managers to define requirements and translate into UI designs.</p>
+        <p>• Conducted user testing and iterated based on feedback.</p>
+        <p>• Built reusable React components & optimized UI performance.</p>
+        <p>• Managed WordPress site development & client meetings.</p>
+      </div>
+
+      <button class="accordion-btn">UI Developer | Softobiz Technologies Pvt. Ltd. – Mohali (Apr 2021 - Jun 2023)</button>
+      <div class="accordion-content">
+        <p>• Implemented complex UI using HTML, CSS, SASS, JS, Material UI & Angular Material.</p>
+        <p>• Focused on performance optimization for cross-browser compatibility.</p>
+        <p>• Maintained websites, fixed UI issues & engaged with clients for improvements.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Education -->
+  <section id="education">
+    <h2>Education</h2>
+    <ul>
+      <li><b>Bachelor of Technology (IT)</b> – UIIT Shimla (2017 - 2020)</li>
+      <li><b>Diploma in Computer Science</b> – Govt Polytechnic Kandaghat (2014 - 2017)</li>
+    </ul>
+  </section>
+
+  <!-- Certifications (Modal Example) -->
+  <section id="certifications">
+    <h2>Certifications</h2>
+    <button id="openModal" class="cert-btn">View Certifications</button>
+  </section>
+
+  <div id="modal" class="modal">
+    <div class="modal-content">
+      <span class="close">&times;</span>
+      <h3>Certifications & Appreciations</h3>
+      <p>• Certificate of Appreciation for successfully delivering projects on time with high standards.</p>
+      <p>• Recognition for exemplary performance and teamwork, delivering ahead of timelines.</p>
+    </div>
+  </div>
+
+  <!-- Contact -->
+  <section id="contact">
+    <h2>Contact Me</h2>
+    <form id="contactForm">
+      <input type="text" id="name" placeholder="Your Name" required>
+      <input type="email" id="email" placeholder="Your Email" required>
+      <textarea id="message" placeholder="Your Message" required></textarea>
+      <button type="submit">Send</button>
+    </form>
+  </section>
+
+  <footer>
+    <p>📞 7018258282 | 📧 tamusharma1998@gmail.com</p>
+  </footer>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
